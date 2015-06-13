@@ -19,7 +19,7 @@ RUN apt-get update && \
 
 RUN update-alternatives --install "/usr/bin/java" "java" "${JAVA_HOME}/bin/java" 1 && \
     update-alternatives --install "/usr/bin/javaws" "javaws" "${JAVA_HOME}/bin/javaws" 1 && \
-    update-alternatives --install "/usr/bin/javac" "javac" "${JAVA_HOME}/bin/java" 1 && \
+    update-alternatives --install "/usr/bin/javac" "javac" "${JAVA_HOME}/bin/javac" 1 && \
     update-alternatives --set java "${JAVA_HOME}/bin/java" && \
     update-alternatives --set javaws "${JAVA_HOME}/bin/javaws" && \
     update-alternatives --set javac "${JAVA_HOME}/bin/javac"
