@@ -1,2 +1,2 @@
 # docker-java
-Java 8 Container
+Java 7 Container

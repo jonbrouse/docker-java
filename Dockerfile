@@ -1,9 +1,9 @@
 FROM debian:jessie
 MAINTAINER Jon Brouse @jonbrouse
 
-ENV VERSION 8
-ENV UPDATE 45
-ENV BUILD 14
+ENV VERSION 7
+ENV UPDATE 79
+ENV BUILD 15
 ENV JAVA_HOME /usr/lib/jvm/java-${VERSION}-oracle
 
 RUN apt-get update && \ 
