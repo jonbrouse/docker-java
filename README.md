@@ -1,2 +1,7 @@
 # docker-java
-Java 7 Container
+Java Container
+
+VERSION 7
+UPDATE 79
+BUILD 15
+SOURCE http://download.oracle.com
